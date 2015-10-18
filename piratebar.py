@@ -40,6 +40,11 @@ def drink(preference):
   for flavor, choice in prefs.items():
       if choice == True:
         hooch.append (random.choice(ingredients[flavor]))
+<<<<<<< HEAD
+=======
+      else:
+        continue
+>>>>>>> 1633f216b16302c3e64190cad718fdf0ab406745
   return hooch
 
 def main():
@@ -53,4 +58,10 @@ def main():
   print "Enjoy yer poison ya scallywag!"
   
 if __name__ == "__main__":
+<<<<<<< HEAD
   main()
+=======
+  main()
+
+#Main question as of this iteration of the program is how to get the ingredients to print out in a string form (e.g ingredient 1, ingredient 2, etc...) instead of on seperate lines.      
+>>>>>>> 1633f216b16302c3e64190cad718fdf0ab406745

@@ -32,7 +32,7 @@ def preference ():
       print "So ya don't like'em", key, "? No problem matey!"
       prefs[key]=False
     else:
-      print "WTF, Yes or No ?!?!?"
+      print "C'mon, Yes or No ?!?!?"
   return prefs
 
 def drink(preference):
